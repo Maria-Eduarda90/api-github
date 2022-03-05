@@ -15,7 +15,6 @@ export const ConatainerBackgorund = styled.div `
     align-items: center;
     flex-direction: column;
     border-radius: 8px;
-    margin: 10px;
 `;
 
 export const ContainerImg = styled.div `
