@@ -5,12 +5,12 @@ import { api } from '../../services/api';
 import { Button, Container, Input } from './styles';
 
 export function SearchButton(){
-    const ctx = useContext(GithubContext);
+    const context = useContext(GithubContext);
     const [ searchGithub, setSearchGithub ] = useState<string>('');
 
     async function handleGithubData(){
         const response = await api.get(`/${searchGithub}`)
-        ctx.setUserData(response.data);
+        context.setUserData(response.data);
         console.log(response.data);
     }
 
