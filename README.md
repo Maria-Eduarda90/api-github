@@ -36,14 +36,3 @@ $ yarn dev
 ```
 
 </br>
-
-<h1 align="center"> 
-	Projeto
-</h1>
-
-<h1 align="center">
-  <img alt="NextLevelWeek" title="#modal" src="./src/img/githupprofile.png" />
-</h1>
-<h1 align="center">
-  <img alt="NextLevelWeek" title="#home" src="./src/img/profile.png" />
-</h1>
