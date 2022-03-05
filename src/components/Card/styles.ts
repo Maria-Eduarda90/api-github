@@ -36,7 +36,6 @@ export const Name = styled.h1`
     text-align: center;
     font-size: 20px;
     font-weight: 700;
-    color: white;
     font-family: 'Poppins', sans-serif;
 `;
 
@@ -46,7 +45,6 @@ export const Username = styled.h2`
     text-align: center;
     font-size: 15px;
     font-weight: 500;
-    color: white;
     padding: 5px;
 `;
 
@@ -55,7 +53,6 @@ export const Bio = styled.p`
     margin: 10px 0;
     font-size: 20px;
     text-align: justify;
-    color: white;
     line-height: 1.3;
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
@@ -83,12 +80,10 @@ export const NumberContainer = styled.div`
     h1 {
         font-size: 25px;
         text-align: center;
-        color: #00000a;
     }
 
     h2 {
         font-size: 15px;
         text-align: center;
-        color: #00000a;
     }
 `;
