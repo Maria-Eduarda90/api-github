@@ -1,5 +1,5 @@
 <h1 align="center">
-  API_GITHUB
+  GITHUB_PROFILE
 </h1>
 
 <p align="center">
