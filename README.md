@@ -22,10 +22,10 @@
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/Maria-Eduarda90/api-github>
+$ git clone <https://github.com/Maria-Eduarda90/github-profiles>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd api-github
+$ cd github-profiles
 
 # Instale as dependências
 $ yarn install
