@@ -1,16 +1,16 @@
-import { useContext, useState } from 'react';
-import { GithubContext } from '../../context/github';
+import { useState } from 'react';
+import { useGithub } from '../../hooks/useGithub';
 import { api } from '../../services/api';
 
 import { Button, Container, Input } from './styles';
 
 export function SearchButton(){
-    const context = useContext(GithubContext);
+    const { setUserData } = useGithub();
     const [ searchGithub, setSearchGithub ] = useState<string>('');
 
     async function handleGithubData(){
         const response = await api.get(`/${searchGithub}`)
-        context.setUserData(response.data);
+        setUserData(response.data);
         console.log(response.data);
     }
 
