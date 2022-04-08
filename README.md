@@ -36,7 +36,3 @@ $ yarn dev
 ```
 
 </br>
-
-<p> 
-	Projeto: https://github-profiles-smoky.vercel.app/
-</p>
