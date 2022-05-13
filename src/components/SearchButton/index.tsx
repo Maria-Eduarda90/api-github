@@ -16,7 +16,7 @@ export function SearchButton(){
 
     return(
         <Container>
-            <Input value={searchGithub} onChange={(e) => setSearchGithub(e.target.value)}></Input>
+            <Input value={searchGithub} onChange={(e) => setSearchGithub(e.target.value)}/>
             <Button onClick={handleGithubData}>search</Button>
         </Container>
     );
